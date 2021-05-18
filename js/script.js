@@ -226,9 +226,6 @@ $("#clickvision").click(function() {
                 animation: "rotateIn"
             });
 	
-	
-
-
 // Special handling for in-app browsers that don't always support new windows
 (function() {
     function browserSupportsNewWindows(userAgent) {
