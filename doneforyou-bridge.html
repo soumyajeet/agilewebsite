@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Agile Affiliates - Done for you</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	<meta name="keywords" content="clickbank 12 minutes affiliate, Russell Brunson, Affiliate Marketing, Passive Income, Grant Cardone, Tai Lopez, Digital Marketer, At home business, Clickfunnels, jv page clickbank, 12 minute affiliate, how to make money off websites">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://agileaffiliates.com/css/bootstrap.min.css" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css"> <!--load all styles -->
+	<!-- Google Fonts -->
+	<!-- MDB -->
+	<link href="https://agileaffiliates.com/css/mdb.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://agileaffiliates.com/css/style.css">
+
+    <style>
+        .bgimage { 
+		/* The image used */
+		/*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/website-parallax-background-C.jpg"); */
+			background: url("https://agileaffiliates.com/images/45-Ways-To-Make-Extra-Money.jpg");
+		/* Full height */
+		height: 100%; 
+
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		}
+	</style>
+    
+	<script>
+		salesPage = () => {
+        var fullName = $('#fullname').val();
+        var emailId = $('#emailid').val();
+
+        if(emailId=='' || emailId==null) {
+            alert('Please enter your email!');
+            return false;
+        }
+
+        var contactObj = {
+            "email": emailId,		
+            "name": fullName,
+            "status": "Active",
+			"niche": null,
+            "connect" : null
+        };
+
+
+        console.log("contactObj",contactObj);
+                
+                
+                
+                $.ajax({
+                    url: 'https://agileaffiliates.com/savedata.php',
+                    method: "POST",
+                    data: JSON.stringify(contactObj),
+                    success: function(res) {
+                        console.log("data",res);
+                        $("#fullname").val("");
+                        $("#emailid").val("");
+                        window.location.href = 'http://bizsolves.easiest123.hop.clickbank.net?pid=0';
+                       
+                    },
+                    error: function(e) {
+                        console.log("error",e);
+                    }
+                });
+
+
+    }
+	</script>
+
+  </head>
+  <body class="bgimage">
+
+
+<div class="container">
+	<div class="row mt-2">
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
+            <h2 class="text-center text-danger mt-5">Top Affiliate Marketing Expert Reveals The Secret To Start Earning Commission Within a Week.</h2>
+
+            
+                <div class="embed-responsive embed-responsive-16by9">
+                
+				
+					<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/320644622" title="YouTube video player" 
+					frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+                </div>
+
+                <h3 class="text-center font-weight-bold p-3 text-dark">A System With EVERYTHING You Need To Succeed</h3>
+                <div class="text-left text-dark">
+					
+					<h4><i class="text-success icon-check"></i>&nbsp;&nbsp;100% Done-For-You Affiliate System.</h4>
+					<h4><i class="text-success icon-check"></i>&nbsp;&nbsp;You can create an Affiliate account in ClickBank, JVZoo, Worrior +, easily without any hassle.</h4>
+					<h4><i class="text-success icon-check"></i>&nbsp;&nbsp;​You will get your email automation system and step by step instructions how to set that up.</h4>
+					<h4><i class="text-success icon-check"></i>&nbsp;&nbsp;You do not need to have your own product. Which product you sell that's upto you.</h4>
+					<h4><i class="text-success icon-check"></i>&nbsp;&nbsp;You will get <b>loads of ready made sales funnels</b> for 3 most profitable niche.</h4>
+					<h4><i class="text-success icon-check"></i>&nbsp;&nbsp;You will get <b>lots of traffic</b> easily with <b>just one click</b>.</h4>
+					<h4><i class="text-success icon-check"></i>&nbsp;&nbsp;Your OWN Internet Business For About The Price of a Cup of Coffee A Day</h4>
+					<h4><i class="text-success icon-check"></i>&nbsp;&nbsp;All this fundamental setup is under one roof. You do not have to log-in to different interface to do all the activities.</h4>
+					<h4><i class="text-success icon-check"></i>&nbsp;&nbsp;All this features are available for you with only $9.95. Try the system with LESS THAN $1.60/Day!</h4>
+				</div>
+
+                <div class="text-center mb-4">
+                    <!-- Change this link to your affiliate link  -->
+                      <button class="btn btn-success btn-xlarge" data-toggle="modal" data-target="#visitorInfo">
+                          YES! I Want To Start<br /> Earning Right Now! 
+                          
+					  </button>
+                  </div>
+            
+            
+        </div>
+        
+	
+	</div>
+</div>
+
+
+
+		<!-- Modal -->
+<div class="modal fade" id="visitorInfo" tabindex="-1" role="dialog" aria-labelledby="visitorInfoLabel" aria-hidden="true">
+	
+	
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			<h5 class="modal-title" id="visitorInfoLabel">Fill the form and you will get the BONUS</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			</div>
+			<div class="modal-body">
+				
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Enter you full name ..." id="fullname"><br />
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Enter you email address ..." id="emailid" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+				</div>
+			
+			</div>
+			<div class="modal-footer">
+			
+				<button class="btn btn-primary btn-lg" onclick="salesPage()">Submit</button>
+			</div> 
+		</div>
+	</div>
+	
+
+  </div>
+  <!-- Modal ends -->
+
+
+
+
+
+
+
+
+    <script src="https://agileaffiliates.com/js/jquery-3.6.0.min.js"></script>
+    <script src="https://agileaffiliates.com/js/popper.min.js"></script>
+	<script src="https://agileaffiliates.com/js/bootstrap.min.js"></script>
+	<script src="https://agileaffiliates.com/js/script.js"></script>
+
+    
+  </body>
+</html>

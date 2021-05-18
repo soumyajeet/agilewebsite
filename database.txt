@@ -1,0 +1,3 @@
+dbname: agillroj_agile_email_list
+username: agillroj_affiliates
+password: ~D;QU@Mrg?C#

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agileaffiliates.com/sitemap.xml
+Sitemap: http://agileaffiliates.com/sitemap.xml
